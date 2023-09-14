@@ -29,7 +29,7 @@ export default function SplashScreen(props: SplashScreenProps) {
               opacity: 0,
             }}
             className='w-screen h-screen z-50 bg-black flex justify-center items-center fixed top-0 left-0'>
-            <div className=' flex flex-row gap-2 text-center text-2xl hover:bg-black hover:text-white  py-2 px-4 w-fit font-bold text-black dark:text-white'>
+            <div className=' flex flex-row bg-[#01FFC3] gap-2 text-center text-2xl  py-2 px-4 w-fit font-bold text-white'>
               <TypeAnimation
                 cursor={false}
                 sequence={['ESCAPE FROM MIRRORS', 3000]}

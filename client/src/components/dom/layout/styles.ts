@@ -11,7 +11,7 @@ export const Header = styled.div<{
   top-0
     w-full
     h-12
-    bg-white
+    bg-[#01FFC3]
     flex
     flex-row
     justify-between
