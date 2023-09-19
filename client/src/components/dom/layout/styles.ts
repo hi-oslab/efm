@@ -11,12 +11,12 @@ export const Header = styled.div<{
   top-0
     w-full
     h-12
-    bg-[#01FFC3]
+    bg-black
     flex
     flex-row
     justify-between
     items-center
-    text-black
+    text-white
     text-3xl
     font-bold
     text-center 

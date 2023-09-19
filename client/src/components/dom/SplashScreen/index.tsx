@@ -29,10 +29,10 @@ export default function SplashScreen(props: SplashScreenProps) {
               opacity: 0,
             }}
             className='w-screen h-screen z-50 bg-black flex justify-center items-center fixed top-0 left-0'>
-            <div className=' flex flex-row bg-[#01FFC3] gap-2 text-center text-2xl  py-2 px-4 w-fit font-bold text-white'>
+            <div className=' flex flex-row bg-white gap-2 text-center text-2xl  py-2 px-4 w-fit font-bold text-black'>
               <TypeAnimation
                 cursor={false}
-                sequence={['ESCAPE FROM MIRRORS', 3000]}
+                sequence={['거울에서', 1000, '벗어나기', 1000]}
                 wrapper='span'
                 speed={10}
                 repeat={Infinity}
